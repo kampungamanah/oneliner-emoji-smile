@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // Exactly one emoji, the one most likely to make a stranger smile.
+// One warm, uncomplicated smile — the safest emoji to send a stranger.
 // Writes the line to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
 // No trailing newline: the gate counts every character.
 const line = "😊";
